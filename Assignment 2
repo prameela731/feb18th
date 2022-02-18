@@ -1,0 +1,22 @@
+
+def isprime(n):
+    for i in range(2,n):
+        if n%i==0:
+            break 
+            return False
+            return True
+            
+            
+count=0
+n=int(input('enter n'))
+for i in range(2,n+1):
+    if isprime(i):
+        count=count+1 
+        print(count)
+enter n
+30
+sum is: 274410818470142134209703780940313
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
